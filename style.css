@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap");
 body {
   font-family: "Roboto", sans-serif;
-  background: #e0e0e0;
+  background: #8d99ae;
   color: #707070;
   margin: 0;
   padding: 0;
@@ -25,6 +25,10 @@ body {
   border-radius: 40px !important;
 }
 
+#title {
+  color: #2b2d42;
+}
+
 .city-name {
   position: absolute;
   width: 100%;
@@ -33,14 +37,15 @@ body {
 .city-name p {
   font-size: 15pt;
   font-weight: 700;
+  top: -70px;
 }
 
 .city-name span {
   font-weight: 700px;
-  font-size: 36pt;
+  font-size: 10pt;
   font-family: "Times New Roman", Times, serif;
   position: relative;
-  top: -65px;
+  top: -25px;
 }
 
 .temp span {

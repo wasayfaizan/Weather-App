@@ -5,13 +5,8 @@ const requestCity = async (cityInput) => {
 const baseURL = "https://api.weatherapi.com/v1/current.json"
 const query = `?key= `+ key+ ` + &q= ` + cityInput + `&aqi=no`
 
-// makes promise call
-const response = await fetch(baseURL+query);
-
-//promise data
-const data = await response.json();
-return data;
-
+// makes promise call and returns the data
+const res = await axios.get(baseURL+query)
+console.log(res.data)
+return res.data
 }
-
-
