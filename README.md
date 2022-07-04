@@ -1,5 +1,5 @@
 <h1>Weather-App</h1>
-<h3>A Weather app built with HTML, CSS, Bootstrap and JavaScript.</h3>
+<h3>A Weather app built with HTML, CSS, Bootstrap, JavaScript and WeatherAPI.</h3>
 
 <p>
 <img align="left"width="327" alt="Weather App(1)" src="https://user-images.githubusercontent.com/91233999/175940658-c258b120-fe46-45ef-bfb1-2cbd682e0acb.png">
